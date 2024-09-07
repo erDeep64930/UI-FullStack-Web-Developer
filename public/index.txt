@@ -1,0 +1,187 @@
+UI fullStack Web Developer Course Naresh IT
+
+
+ ----------      L-1  ---------
+
+
+       Which fullstack to learn ?
+
+
+1. Full Stack Web Developer Course:
+    HTML,CSS, Bootstrap,JavaScript,Sass,jQuery
+    Node.js, MongoDB,ExpressJS,
+
+2.Java Full Stack Course    
+    HTML,CSS, Bootstrap,JavaScript,Sass,jQuery
+    Java [Core,Adv,JSP,Spring], oracle
+
+3. .NET Full Stack
+        HTML,CSS, Bootstrap,JavaScript,Sass,jQuery
+        C# ,ASP.NET,MVC,Web API , Sql Server
+
+
+
+MERN VS MEAN Developer:
+
+M -  MongoDB  = Database
+E -  ExpressJS = Middleware
+A/R - AngularJS / React  = Client Side
+N - NodeJS =   - Server Side
+
+
+fullStack :
+     -Frontend
+     -Backend
+
+UI and UX ?
+
+UX: User Experience = [React and AngularJS ,Vue ,BackBone ,Knockout etc..]
+
+UI: User Interface
+   HTML,CSS, JS,Bootstrap, jQuery , Photoshop ,Figma 
+
+
+
+------------  L-2 ---------
+
+HTML is a presentation language
+
+-What is network ?
+-What is internet ?
+-What is Web?
+     -Tim Berner Lee
+
+     ------ L-3 -------
+What is web ?
+ web is a portion of internet with restricted access
+ HTML is a language for web
+
+
+ What is web Server ?
+
+ Entire software development work on 4 Server
+  --software development:
+    -1. SandBox Server or Golden Server
+    -2. development Server
+    -3. Quality Server
+    -4. Production Server
+-----5. Client Server (Whatever application we build used by user)
+
+
+1.SandBox Server: - it is a server where repository are kept
+
+2.development server :- here it is build here .
+
+3.Quality server :- here it is check here
+
+4. Production server :- application is used here / apps /Project is already running .
+
+
+---------------------
+
+Tier and Layers architecture :-
+
+To build a application we need 
+ 1.Database server
+ -Database {kept on different server} database can be Oracle , MySQL ,MongoDB
+
+2. Application server
+ -application are kept on application server {JSP,PHP,Node.Js}
+
+3.Client server
+ -client is kept on client server {user /Client}
+
+
+Application run on three tier 
+ - Web application run on 3 tier 
+
+ {UI Developer work on User/Client server} html,css,js,angular,React
+
+ Application are build on Layers
+  -UI layer = designing {user interface}
+  -Business layer = Logic {communication}
+  -Database layer = database
+
+  how to create a resume 
+   Project-A:2019-2020
+   architecture: 3 tier application
+   my role : UI layer
+
+   Full Stack Developer work on 
+     -UI layer = HTML ,CSS,JS,
+     -Business = node js , ExpressJS ,API, Services
+     -Data Layers = MongoDB,MySQL
+
+     application are kept on Server
+
+     Web Server 
+       -Local Web Server {install on pc}
+       -Cloud server eg:-{firebase,mongo,aws,azure}
+
+Address : http://127.0.0.1
+Address : http://localhost:8080
+
+website V/S web application 
+
+Website:- it is virtual directory that provide access to the resources on server
+ site= location = drive/directory
+ web= location on server
+
+-------------L-4 -------------
+website V/S web application
+
+website= static resources / no interaction
+Web Application =static + dynamic resources / interaction eg netflix , amazon
+
+Blog:- web log= blog web information
+
+Vlog - eg: Youtube channel  journal on internet
+
+wiki : mean quick google map because you can update the images .
+
+Podcast :
+pod : multimedia broad cast = [audio /video]= ipod
+
+Widget: gadget for website or application : weather report /currency convertor
+
+Web Debugger/ Developer tool  : find the bug and fix it : eg - fiddler, Postman , Swagger
+
+set up environment:
+====================
+
+1.download and install =node js 
+ cmd : node -V
+ cmd:npm -V
+
+2. Code editor 
+IDE = INTEGRATED development environment
+eg:vs code editor
+ download extension
+  - live server ,  
+
+-----------L-5------------
+
+
+
+create a new web application
+
+create a folder in pc avoid on desktop
+terminal in vs code = [ctrl +`]
+if your terminal open with powershell thwn switch to cmd
+
+type the following command :
+
+ [npm init -y]
+  npm= node package manager 
+  init = initialix=zation of projetc 
+  -y = accept all the project meta data
+
+this will generate a new file called package .json
+
+package.json comprises of information about the project 
+ 
+ public = it is a repository of static resources [.html,.txt,.pdf,images]
+ src = it is a source of dynamic resources [.css, .scss, .ts]
+
+- add index.html to public folder
+
