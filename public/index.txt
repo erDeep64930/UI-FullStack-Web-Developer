@@ -185,3 +185,104 @@ package.json comprises of information about the project
 
 - add index.html to public folder
 
+memory :
+ static - continious memory
+ dynamic - discreet memory
+
+----------L-6-------
+static page extension - .html, .htm , {same information}
+dynamic page - .jsp,.php,.aspx, { information change}
+
+
+          HTML
+        -------
+markup language - preparing content for presentation
+html is not a programing language it is a presentation language
+
+Step1:GML is 1st markup language , developed by currency
+Step2:SGML Standard generic markup language , develop by IETF [Internet Engineering task force]
+Step3: Whatwg and w3c started the evolution of HTML
+
+Latest version of HTML is HTML5
+
+
+HTML4 V/s HTML5
+
+ 
+html are collection of elements that are arranged in DOM [document object module]
+
+html rendering are done in [browser engine]
+
+
+bytes=>charecter=>tokens=>nodes=>dom=>rendering=>=>layout=>paint
+
+html elements are classified as following:-
+
+1.normal elements
+2.void elements
+3.rc data elements
+4.raw text elements
+5.foreign elements
+
+1.Normal element :-  it return the presentation on callback , -it will not show  the presentation  eg.: <b></b> , 
+- it require the start tag and end tag.
+
+2.void element :- it does not return the presentation on callback , it require additional attributes ,- it does'nt require the end elements
+eg:-<img src="" alt="" width="100" height="100"/>,<link />
+- this are also called self ending elements.
+
+
+3.Rich content data elements:-
+ -will not allow any another element with in the context.
+ -it is only for the plain text eg:-<textarea>
+
+
+4. Raw text elements:-
+ -no tag require
+ eg:
+copyright symbol using code syntax &copy; &#8377;
+
+5. foreign elements:-
+eg:-Canvas,SVG,MathML,
+
+       ----------L-7------------
+
+
+HTML file extension 
+.html,
+.htm
+both are same.
+[html pages can be created with ms word , ms excel]
+use only .html
+
+structure of html :
+
+1.document declaration 
+
+<!DOCTYPE html> -it indicate that we are using the html5
+
+2.document scope
+<html></html>
+it specify the start and end of document 
+
+document attribute <html lang-"en-in"></html>
+-html everything is called attribute
+
+
+--------L-8---------
+
+creating favicon 
+
+go to project folder "public folder" and add folder assets name this as favicon.ico 
+favicon icon must be 16*16 pixel 32*32 
+
+web page must be 1200*720
+
+open your favicon in ms-paint 
+
+<link>
+ 
+ rel- it specify the file type stylesheet for css or shortcut icon for favicon 
+
+ href-it is hyper reference virtual path of file 
+ 
