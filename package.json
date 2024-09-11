@@ -8,5 +8,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "it is a full stack web development application from naresh it"
+  "description": "it is a full stack web development application from naresh it",
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
 }

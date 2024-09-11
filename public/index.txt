@@ -390,3 +390,34 @@ div{
 }
 -box shadow cant be applied to text 
 -for text -use text-shadow
+
+
+-------L-13 has been ended----------
+
+NOTE:-Always use camelcase for naming
+
+lowerUppercase
+
+prefix-which component you are refering
+suffix- for what purpose
+
+eg:-
+paraMessage
+txtPassword
+
+ ol {
+  display:flex;
+ }
+ ol{
+  display:grid;
+  grid-template-columns:6fr 6fr;
+ }
+
+ #bootstrap icon
+ npm i bootstrap-icons --save
+
+
+---------L-14 end---------
+
+
+
