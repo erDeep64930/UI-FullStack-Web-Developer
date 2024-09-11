@@ -481,12 +481,37 @@ decoding -auto/sync/async
 
 importance -low/high/auto
 
+-----l-16 end here-----
+
+link in html
+
+-link are clickable text , picture or graphic that are navigate the user
 
 
 
 
 
 
+
+
+
+
+
+sitemap - provide the basic information about the link and navigation links.
+
+ link uses href to set the target
+
+ eg:- 
+ step1: define id
+ <h2 id="footwear"></h2>
+ <ol id="offer"></ol>
+
+step2:
+<a href="#footwear">Footwear</a>
+<a href="$offer">Offer</a>
+
+Q. how to target any reference within the page with style?
+-by using ":target" selector
 
 
 
