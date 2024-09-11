@@ -374,5 +374,19 @@ use limited number of heading for  SEO
 Q. without heading can we define the heading style ?
 -yes , but they are not SEO friendly and we can change the style and font with the css .
 
+SEO-can summarise the page content so use wisely
+heading is define with align attribute .
 
 
+-----------L-12  has beenn ended------------
+
+
+data terms and defination
+
+shadow for container :-
+
+div{
+  box-shadow : horizontal vertical blur color;
+}
+-box shadow cant be applied to text 
+-for text -use text-shadow
