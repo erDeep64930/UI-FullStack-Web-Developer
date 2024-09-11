@@ -353,5 +353,26 @@ nav div {
 }
 
 
+---------L-11 has been ended----------
+
+what is the differnece b/w <br> </br>
+
+<br> is valid line break 
+</br> is self ending [void] and invalid
+browser only understand only <br> 
+avoid using </br> 
+
+1).<pre>tag - this tag pront as you write</pre>
+2).<code>this is for code for display </code>
+
+NOTE:
+-don't use heading for highlight the text or content in a paragraph
+-don't use lots of heading in one page .this will span your page.
+
+use limited number of heading for  SEO 
+
+Q. without heading can we define the heading style ?
+-yes , but they are not SEO friendly and we can change the style and font with the css .
+
 
 
