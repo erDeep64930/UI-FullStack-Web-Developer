@@ -398,7 +398,7 @@ NOTE:-Always use camelcase for naming
 
 lowerUppercase
 
-prefix-which component you are refering
+prefix-which component you are referring
 suffix- for what purpose
 
 eg:-
@@ -430,7 +430,7 @@ face= font name [Arial , times new roman]
 Q. what are web safe fonts?
 serif,sans-serif,monospace
 
-Q. what is differece b/w bold and strong ?
+Q. what is difference b/w bold and strong ?
    document have 2 mode 
      -Design mode [<b></b>,<em></em>,<u></u>,<del></del>]
      -Review mode [<strong></strong>,<ins></ins>,<strike></strike>]
@@ -441,14 +441,14 @@ how to handle images
 
 what are the images supported type:
  -APNG- ANIMATED PORTABLE NETWORK GRAPHICS
- -PNG- PORTABLE NETWROK GRAPHICS
+ -PNG- PORTABLE NETWorK GRAPHICS
  -JPG-JOINT PHOTO GRAPHIC EXPERT GROUP 
  -BMP-BITMAP
  SVG- SCALAR VECTOR GRAPHIC
  WEBP- WEB PICTURE 
 
 
- PNG,APNG-hd,hr,more pixel depth not for website  because occupy more sapce.
+ PNG,APNG-hd,hr,more pixel depth not for website  because occupy more space.
 
  jpg-hd,hr compressed image  
 
@@ -456,12 +456,30 @@ what are the images supported type:
  gif can have ANIMATED
 
  SVG - vector GRAPHIC xml based image [on zooming photo quality increases]
-xml can flow throuh firewall ie., not effected by virus .
+xml can flow through firewall ie., not effected by virus .
 
 vector based- google map 
 
 -----l-15 has been ended--------
 
+<img> is used to embed the image 
+-it is a void element 
+<img alt="" src="">
+
+alt= alternate text to display when image fail to load 
+
+src= it define the image path 
+
+% make image responsive 
+
+Q. what is fluid image ?
+image that can adjust a/to browser .you can define by using %
+
+<img src="" alt="" title="" align="" decoding="" crossorigin="anonymous" importance="">
+
+decoding -auto/sync/async
+
+importance -low/high/auto
 
 
 
