@@ -285,4 +285,64 @@ open your favicon in ms-paint
  rel- it specify the file type stylesheet for css or shortcut icon for favicon 
 
  href-it is hyper reference virtual path of file 
+
+ # difference b/w href and src 
+
+  src- it is used to get the path and display the file 
+
+  href - it is setter ,it is used to set the path and access the file .
+
+
+<meta charset="utf-8">
+
+UTF-UNICODE TRANSFORMATION FORMAT -it is used by bot to know the language used in page
+
+8 bit- english
+16bit korean ,japanese
+32 bit - chinese , arabic
+
+meta -charset 
+     -name=keyword content=""
+     -name="description" content=""
+     http-equiv request headers
+    veiwport 
+
+  <meta http-equiv="refresh" content="4"> -this will update the page every 4 second this is generally used in cricbuzz /realtime data upadte to refresh the page 
+
+meta veiw port is used for responsive page 
+
+html color 
+- you can define the html color using :-
+  a) color name eg: <body bgcolor="red"></body>
+  b) hex code : #RRGGBB
+      R- red
+      G-green
+      B- blue
+
+color value will be -(0-9),a,b,c,d,e,f
+ 0=dark
+ f=light
+
+ background :it set the background images
+
+ align : it set the alignments
+ margin 
+
+ alink-active link
+ vlink -visited link
+
+----------L-9 COMPLETED-------
+
+html4 body are design by table -earlier 
+
+-html4 is not SEO friendly
+-HTML5 has introduced semantic element 
+ to make html page more SEO friendly
+
+ eg:- aside,article, dialog,figure,figcaption, header,footer,section,main,div,span,nav,
+ menu etc.
+
+
+ div - indicate the block element . ie., loading the content 100%
+ span- it indicate the inline element . ie., loading the content line by line
  
