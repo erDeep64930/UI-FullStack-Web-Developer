@@ -419,5 +419,56 @@ txtPassword
 
 ---------L-14 end---------
 
+text effect in html
+
+-font  [face,size,color]
+-font style [bold ,italic]
+-font effect [underline,strike ,super script, subscript]
+
+face= font name [Arial , times new roman]
+
+Q. what are web safe fonts?
+serif,sans-serif,monospace
+
+Q. what is differece b/w bold and strong ?
+   document have 2 mode 
+     -Design mode [<b></b>,<em></em>,<u></u>,<del></del>]
+     -Review mode [<strong></strong>,<ins></ins>,<strike></strike>]
+
+
+
+how to handle images
+
+what are the images supported type:
+ -APNG- ANIMATED PORTABLE NETWORK GRAPHICS
+ -PNG- PORTABLE NETWROK GRAPHICS
+ -JPG-JOINT PHOTO GRAPHIC EXPERT GROUP 
+ -BMP-BITMAP
+ SVG- SCALAR VECTOR GRAPHIC
+ WEBP- WEB PICTURE 
+
+
+ PNG,APNG-hd,hr,more pixel depth not for website  because occupy more sapce.
+
+ jpg-hd,hr compressed image  
+
+ gif -low resolution less color [256 color]
+ gif can have ANIMATED
+
+ SVG - vector GRAPHIC xml based image [on zooming photo quality increases]
+xml can flow throuh firewall ie., not effected by virus .
+
+vector based- google map 
+
+-----l-15 has been ended--------
+
+
+
+
+
+
+
+
+
 
 
