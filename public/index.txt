@@ -345,4 +345,13 @@ html4 body are design by table -earlier
 
  div - indicate the block element . ie., loading the content 100%
  span- it indicate the inline element . ie., loading the content line by line
- 
+
+
+#
+nav div {
+  - this mean that all elements in the nav 
+}
+
+
+
+
