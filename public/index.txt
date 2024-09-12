@@ -36,9 +36,12 @@ fullStack :
 UI and UX ?
 
 UX: User Experience = [React and AngularJS ,Vue ,BackBone ,Knockout etc..]
+-designer = ux
 
 UI: User Interface
    HTML,CSS, JS,Bootstrap, jQuery , Photoshop ,Figma 
+
+   Designer - need creativity 
 
 
 
@@ -512,6 +515,40 @@ step2:
 
 Q. how to target any reference within the page with style?
 -by using ":target" selector
+
+
+----l-17 end here-------
+
+
+-inter document link [one page to another]
+-Intra document link [within the page ]
+
+
+Q. how to link a document which will download always ?
+- by using "download" attribute 
+
+<a href="" download="any name"> </a>
+
+Q.how to open a linked document in new tab ?
+"target=_blank"
+
+Q. how to open a linked document in a new window?
+-using JavaScript ="window.open"
+
+<a href="javascript:window.open('shoe.jpg)"></a>
+
+Q. how to close a linked document in same page embedded at specific page?
+-<iframe name="frameBody"> </iframe>
+
+Q.how to create a link for email , phone ?
+-link uses href- 
+             mailto- for mailto
+             tel - phone
+             javascript - for executing javascript function  
+
+
+--------L-18 end here--------
+
 
 
 
