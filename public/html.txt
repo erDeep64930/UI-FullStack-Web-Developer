@@ -549,6 +549,38 @@ Q.how to create a link for email , phone ?
 
 --------L-18 end here--------
 
+  iframe can use a default source by using src attribute.
+
+  <iframe src=""></iframe>
+
+
+frame can be nested  using rows and columns but today they are not supported in browsers.
+
+
+------L-19 END HERE--------
+
+TABLE in HTML 
+
+-earlier table are used to design the website but not today.
+
+ #table attribute 
+
+ -frame,rules and border
+ frame -it define for entire table
+ <table frame="box|rhs|lhs|above|below|void"></table>
+
+ rules -define for row and column
+<table rules="rows|cols|groups|none|all"></table>
+
+-border-define for cell. 
+  0-false 
+  1-true 
+
+-cellspacing 
+-cellpadding 
+
+---------L-20 END HERE----------
+
+
+
   
-
-
