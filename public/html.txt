@@ -1,6 +1,6 @@
 UI fullStack Web Developer Course Naresh IT
 
-
+7997993922- naresh it
  ----------      L-1  ---------
 
 
@@ -43,7 +43,7 @@ UI: User Interface
 
    Designer - need creativity 
 
-
+UI developer also called -Frontend /webdevelper
 
 ------------  L-2 ---------
 
@@ -581,6 +581,62 @@ TABLE in HTML
 
 ---------L-20 END HERE----------
 
+------l-21-left intensionally-----
+
+
+Forms in html:-
+
+form -UI interaction take place 
+
 
 
   
+get - fetch data 
+post - submit data
+put - modify all details
+patch - partial modify
+delete - delete details
+
+Q. can we submit data on data on GET requests?
+yes, but not recommended
+
+Q.difference b/w get and post ?
+- GET - it submit data to server.
+     - it append data into url as query string 
+     - it can viewed by the user 
+     - it is not safe
+     - any one can hack your data 
+     -data is appended[added] to url .
+     hence you can't submit complex data.
+
+
+- POST -it submit data to the server.
+       - data is submitted as form body.
+       -it is not appended into url
+       -it is safe
+       -it is not in browser 
+       -it can complex data 
+       
+
+Q.where data is present when submitted on get request ?
+-Query string 
+
+
+action -target page where data is submitted to [.jsp,.aspx,.php,.asp]
+
+-noValidate
+HTML5 introduce form validation.only work in html 
+
+form element -
+ -textbox
+ -Password
+ -checkbox 
+ -radio button 
+ -dropdown 
+ -list 
+ -textarea 
+ -progress 
+ -button 
+ 
+
+
