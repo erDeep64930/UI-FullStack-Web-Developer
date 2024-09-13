@@ -681,8 +681,34 @@ range picker are not supported in html for its we use javascript
 #file input - it use to select the file
 
 
+-----l-24,25, end here -----
+
+<select>
+<option value="50001">Hydrabad
+</option>
+<option value="50001">Delhi
+</option>
+<option value="50001">Mumbai
+</option>
+<option value="50001">Kolkatta
+</option>
+</select>
 
 
+#list box is similar to dropdown
+
+<select>
+<optgroup>
+<option></option>
+</optgroup>
+</select>
+
+
+
+#progress bar 
+
+-are rarely used they are placed by spinner 
+-they are control dynamically.
 
 
 
