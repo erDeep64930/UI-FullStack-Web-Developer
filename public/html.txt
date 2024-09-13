@@ -661,6 +661,30 @@ use either = value/placeholder
 
 ------l-23 end here---
 
+<input type="password" >
+
+#password input
+#number input -only number
+#stepValue
+
+-DateInput-[date picker to select the date]
+
+<input type="datetime" />
+dateTime---this is no longer in use 
+since no browser supports
+
+range picker are not supported in html for its we use javascript
+
+-always date format should be yy-mm-dd 
+
+
+#file input - it use to select the file
+
+
+
+
+
+
 
 
 -
