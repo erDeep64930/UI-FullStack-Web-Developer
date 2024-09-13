@@ -637,6 +637,31 @@ form element -
  -textarea 
  -progress 
  -button 
- 
 
+------L-22 end here -------
+
+#textbox
+ -it allow to view input and edit text 
+ -it allow string [charecter,string,special charecter]
+
+ ##--"name" it is needed to submitted its value .
+
+ ##"value" it indicate a value to display in textbox .[default text]
+
+ ##placeholder -it indicate the watermark in the textbox 
+
+use either = value/placeholder
+
+#readonly/disable 
+#autofocus
+#size
+#maxlength
+#required
+#pattern
+
+------l-23 end here---
+
+
+
+-
 
