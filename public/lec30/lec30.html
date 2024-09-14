@@ -35,6 +35,13 @@
     #username1:valid+span {
         display: none;
     }
+    #mobile:invalid+span{
+        display: block;
+        color:red;
+    }
+    #mobile:valid+span{
+        display: none;
+    }
 </style>
 <body>
     <fieldset>
@@ -56,6 +63,11 @@
         <legend>user name</legend>
         <h2>Dynamic element validation state pseudo classes</h2>
         <input type="text" id="username1" required placeholder="name in block letter required"> <span>name in block is required
+    </fieldset>
+    <fieldset>
+        <legend>Mobile</legend>
+        <input type="text" id="mobile" required placeholder="enter mobile number" pattern="\+91\d{10}">
+        <span>Invalid mobile number</span>
     </fieldset>
 </body>
 </html>

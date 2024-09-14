@@ -260,6 +260,17 @@ h2:className{
 -required,optional,valid,invalid,in-range,out-range
 
 
+---------l-33 END HERE---------
 
 
+
+structural pseudo classes :-
+
+:first-child
+:last-child
+:nth-child
+:nth-of-type
+:nth-last-of-type
+:root 
+:empty
 
