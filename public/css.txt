@@ -235,6 +235,31 @@ p[class]{
 
 -------l-32 end here---------
 
+Dynamic pseudo classes:-
+
+-dynamically allow to change according to the state and situation .
+-pseudo refer to name that map to different element .
+-eg:
+<a>Anchor</a>
+<link>
+-class is pre define template that comprises dat and logic .
+
+h2:className{
+    //
+}
+
+1:link
+2:hover 
+3:active
+4:visited
+
+
+
+#Dynamic element validation state pseudo classes :
+
+-required,optional,valid,invalid,in-range,out-range
+
+
 
 
 
