@@ -274,3 +274,20 @@ structural pseudo classes :-
 :root 
 :empty
 
+dropCap
+
+p::first-letter{
+   font-size:40px;
+   color:green;
+}
+p::first-line{
+   color:blue;
+}
+
+
+# CSS Unit:-
+
+1.Absolute
+2.Relative
+
+absolute [in,cm,pt,px,%]
