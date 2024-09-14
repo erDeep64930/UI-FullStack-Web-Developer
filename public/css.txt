@@ -81,4 +81,160 @@ Selector in CSS .
 
 ----------L-31 end here ---------
 
+#Inline Style 
+<h1 style="styleAttribute:value"></h1>
+
+#Embedded CSS/ External CSS files
+ selector
+ {
+    styleAttribute:value;
+ }
+
+ #Primary/basic css selector:-
+
+ 1.Type selector
+ 2.Id Selector
+ 3.Class selector
+
+ 1.Type selector
+   -it is define the element tag name
+   -it apply to every element that occur in the page.
+
+eg:-
+h2{
+     styleAttribute:value; 
+}
+p{
+      styleAttribute:value;
+}
+
+etc.
+
+#you can apply to group 
+h2,p{
+      styleAttribute:value;
+}
+- this will apply to all h2 and p tag.
+
+2.Id Selector :-
+  -it define by #
+  -it is access by using "id" attribute
+  -you can apply effect only to require element
+  -every element can have only one attribute .hence you can apply multiple group eg effect in this 
+
+NOTE:-every element can have only one id 
+
+3.Class Selectors -
+
+  -it is define "."
+  - it is access by "class"
+  -Dynamically access by "className" attribute.
+
+  -you can apply multiple classes to single element .
+
+  <h2 class="class1 class2 "></h2>
+
+priority:-
+       id > class > type selector 
+
+ #rational selector or combinator :-
+
+ apply effect to the parent child hierarchy, or adjacent and general 
+
+ eg1:-
+    <ol>
+       <li></li>
+    </ol>      
+
+    [ol-parent ,li-child]
+
+eg2:-
+
+ <div>
+   <p></p>
+ </div>   
+
+ [div-parent ,p-child]
+
+div space p {
+    "it indicate that all children inside div" 
+}
+
+1.Decendents selector :
+ -it apply effect to all child under specific parent.
+ -it can apply to any level
+
+ parent child{
+    //
+ }
+
+ eg:
+ div space p {
+
+ }
+
+ 2.Child Selector:
+
+ -it apply to effects to direct child.
+ -it will not span effect to multiple level 
+
+ parent > p {
+    //
+ }
+ eg :
+ div > p{
+
+ }
+
+ #adjacent Sibling :
+
+ -it define effect for immediate adjacent Sibling [element] after the specific element.
+
+ h2 + p{
+    //
+ }
+
+ #General Sibling:-
+
+ h~p{
+    //
+ }
+
+-it define the effect for every element that occur after the specified.
+-it define any level.
+- it will apply for every paragraph after h2 
+
+
+## Attribute Selector :-
+
+ eg:
+ input[type="button"]{
+    background-color:"red";
+ }
+
+-several html element are present by using attribute of tag
+-hence we have to apply effect based on attribute and its value
+
+
+<p>para1</p>
+<p id="p2">para1</p>
+<p>para1</p>
+<p id="p4">para1</p>
+
+p[id]{
+    color: black;
+}
+it will aply to all  id it dont care 2/4
+
+p[class]{
+    //
+}
+
+-attribute selector uses condition for value
+
+
+-------l-32 end here---------
+
+
+
 
