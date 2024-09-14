@@ -712,6 +712,47 @@ range picker are not supported in html for its we use javascript
 
 
 
+------l-27-------
 
--
+Regular expression:-
+  - are made by -[1.meta charecter, 2.quantifiers]
+
+1.meta charecter -
+
+1.? = zero or one occurrence charecter .
+
+syntax:
+<input type="text" pattern="colou?r" name="test"/>
+
+2. + =>many times or one occurrence charecter
+
+
+---------L-30 start here---------
+
+#multimedia 
+
+  -Animation
+  -audio
+  -video
+
+#Marquee: it is usd for creating sliding and scrolling content
+Now they are not in used .
+
+scroll amout - how you want to control  scroll .
+
+behavior - scroll behavior.
+
+Keyframe we design the Animation .
+
+<marquee onmouseover="this.stop()" onmousout="this.start()">
+</marquee>
+
+
+<video></video>
+<audio></audio>
+<embed></embed>
+
+
+---------l-30 end here------
+
 

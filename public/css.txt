@@ -1,0 +1,84 @@
+Style ===cssStyle
+-------------
+     Cascade Style Sheets
+
+style can be define in 3 ways :-
+ 1.Inline 
+ 2.embedded style
+ 3.External style
+
+#Inline Style:
+  -they are faster.
+  -you cannot reuse it.
+
+ #Embedded Style
+  -style are defined by using <style> container </style>
+  -style are not accessible to other pages.
+
+  syntax:
+
+   <style>
+     selector{
+          attribute:value;
+           }
+   </style>
+
+
+Q.where to embed the style container , Head or body section ?
+  - you can embed in both the section 
+
+Q. what is the difference between the head and body section ?
+ -style in head section are intend to load into memory and apply when ever required .
+
+ Style in body section are intended to apply on body load .
+
+Q.what is MIME type for style ?
+-multipurpose internet main extension
+ {
+    "text/css"
+ }
+
+ eg: 
+ <style type="text/css">
+
+ Q. what is media type for style ?
+ -media type are used to target stye for printer ,screen or speech .
+
+
+<style type="text/css" media="print/screen"></style>
+
+3. External Stylesheet
+   -you can define the separet style sheet with extension".css"
+   -you can link any page 
+   -external stylesheet can increase the number of request 
+   that increase the load time .
+
+  <link rel="stylesheet" href="../src/style.css"> 
+
+  ---Dynamic files are kept in scr folder
+
+Q.what is minification ?
+ -it sis the process used to reduce the  file size .
+ -it is compressing the files
+ -it remove blank spaces ,line break,short hand techniques to reduce the size
+
+ 
+
+ effects.css = development [uncompressed files]
+ effect.min.css = production [compressed files]
+
+
+Q.can you edit minified files?
+yes ,but not recommended.
+
+Q.what is cdn ?
+-Content Delivery Network
+-keep repository in server give access from any remote location .
+
+
+
+Selector in CSS .
+
+----------L-31 end here ---------
+
+
