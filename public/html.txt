@@ -43,7 +43,7 @@ UI: User Interface
 
    Designer - need creativity 
 
-UI developer also called -Frontend /webdevelper
+UI developer also called -Frontend /web develper
 
 ------------  L-2 ---------
 
@@ -143,6 +143,7 @@ Vlog - eg: Youtube channel  journal on internet
 wiki : mean quick google map because you can update the images .
 
 Podcast :
+
 pod : multimedia broad cast = [audio /video]= ipod
 
 Widget: gadget for website or application : weather report /currency convertor
@@ -163,6 +164,32 @@ eg:vs code editor
   - live server ,  
 
 -----------L-5------------
+------------------------
+
+=========GIT CONCEPT==========
+
+Git is an application which needs to be download and install, which is used to track version.. it is a version control system
+https://git-scm.com/downloads
+windows>64-bit
+after installing check git -v
+"https://github.com/prasad-bigdp/angular-11"
+Github is just a online code storage like gdrive. u can also use bitbucket,gitlab,aws.
+
+step1:  download git from https://git-scm.com/downloads and install it and check the version by "git -v" in cmd
+step2: create github account
+step3: go to visual studio code and login into github
+step4: setup configs in vscode
+git config --global user.email "youremail" 
+git config --global user.name "username" 
+
+steps:
+1:git init
+2. git add .
+3. git commit -m "update"
+4. git remote add origin "link"
+5. git push -u origin main
+
+==========GIT CONCEPT end here==========
 
 
 
@@ -170,13 +197,13 @@ create a new web application
 
 create a folder in pc avoid on desktop
 terminal in vs code = [ctrl +`]
-if your terminal open with powershell thwn switch to cmd
+if your terminal open with powershell then switch to cmd
 
 type the following command :
 
  [npm init -y]
   npm= node package manager 
-  init = initialix=zation of projetc 
+  init = initialization of project
   -y = accept all the project meta data
 
 this will generate a new file called package .json
@@ -200,7 +227,7 @@ dynamic page - .jsp,.php,.aspx, { information change}
           HTML
         -------
 markup language - preparing content for presentation
-html is not a programing language it is a presentation language
+html is not a programming language it is a presentation language
 
 Step1:GML is 1st markup language , developed by currency
 Step2:SGML Standard generic markup language , develop by IETF [Internet Engineering task force]
@@ -754,5 +781,6 @@ Keyframe we design the Animation .
 
 
 ---------l-30 end here------
+
 
 

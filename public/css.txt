@@ -295,4 +295,95 @@ p::first-line{
 absolute [in,cm,pt,px,%]
 
 
- 
+ css color :-
+
+1.hexa decimal color 
+2.rgb color()
+3.rgba()
+
+color name:
+  h2{
+    color:red;
+  }
+
+  hexa code 
+  h2{
+   color:#ff0033;
+  }
+
+  rgb()
+  h2{
+   color:rgb(255,0,0)
+  }
+
+  rgba()
+
+  h2{
+   color:rgba(255,0,0,0.3)
+  }
+
+  #CSS Inheritance:-[these are  generally used in saas concept]
+
+  -Inherit
+  -initial
+  -Unset
+
+  Inheritance- is a process of extending  and allow to use the existing value .
+
+   -Inherit : implement the parent effect 
+  -initial:set the default effect
+  -Unset:clear all effects
+
+  syntax:
+
+  body{
+   color:red;
+  }
+  p{
+   color:initial;
+  }
+
+
+#CSS Box model:
+
+this consist of [margin,padding,border]
+
+margin:-  bahar se gap lana 
+padding :- andar se gap lana
+border:-
+
+shorthand:-
+ margin [top bottom left right];
+
+ for applying border we apply padding .
+
+ border-left-style [double , dashed,solid,groove].
+
+ #CSS position :
+
+ -static
+ -Relative
+ -sticky
+ -fixed
+ -absolute
+
+ #static = it keep the element a/to normal document flow 
+ - it is a default position
+ - it is not effected by top , left ,right or bottom position value .
+
+#Fixed:
+-it remove the element from the normal  document
+-its position is fixed and locked from scrolling .
+ - it is effected by top , left ,right or bottom position value .
+
+ #Absolute:
+ -same like fixed but will not lock the scrolling 
+ - it is effected by top , left ,right or bottom position value .
+
+ #sticky
+ -it keep the element a/to normal flow of document 
+ -
+
+
+
+
