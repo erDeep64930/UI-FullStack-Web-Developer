@@ -1,0 +1,63 @@
+                JavaScript
+
+-js is light weight  JIT[just in time] compile program language.
+
+Q.What is JIT?
+  -there are two type of compiling technique:
+  a) JIT [just in time]
+  b) AOT [Ahead of time]
+
+  --JIT compile logic in browser
+  --AOT compile logic in app level
+
+Js support various programming technique and approach:-
+
+a) Functional programming
+b) Structure programming
+c) Imperative programming
+d) Object Oriented programming
+
+Js is not an OOP language , it support only few features of oops
+
+Js is used in -
+               client side =html
+               server side =node.js
+               database =mongoDb
+               animation =Flash /CAD -[buildimg map civil branch]
+
+
+evolution
+
+1st browser "mosaic"
+  GML,SGML = Presentation
+  ECMA = Client side
+
+ 1990: Tim Berner Lee introduced html
+  1994 :netscape communication - develop browser 
+
+
+javascript with html [client side]
+
+js is used client side in order to reduce the burden on server 
+ via handling validation + Handling interaction + DOM manipulation[CRUD]
+
+Q.What is the role of Js?
+ -DOM manipulation
+
+ integrated js into page :-
+ Inline
+ embedded
+ external
+
+ inline 
+ eg:-
+ <button oncick="window.print()>Print</button>
+
+ embedded
+ eg:-
+ <script type="text/javascript">
+ function printPage(){
+   window.print()
+ }
+ </script>
+
