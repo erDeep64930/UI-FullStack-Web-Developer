@@ -406,3 +406,18 @@ Q. what is keyframe?
 -animation are designed by using frame 
 usually animation contain 30fps [frame per second]
 -
+
+------L-41-------
+
+     --Bootstrap--
+
+files require for using bootstrap components
+
+bootstrap.css
+bootstrap.icons.css
+jquery.js
+bootstrap.bundle.js
+
+
+
+

@@ -10,6 +10,8 @@
   "license": "ISC",
   "description": "it is a full stack web development application from naresh it",
   "dependencies": {
-    "bootstrap-icons": "^1.11.3"
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "jquery": "^3.7.1"
   }
 }
