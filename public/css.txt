@@ -384,6 +384,25 @@ shorthand:-
  -it keep the element a/to normal flow of document 
  -
 
+  
+------l-39------
 
+CSS 2D Transform
 
+-translate
+-scale
+-rotate
+-matrix
 
+css 2d matrix
+-it allow to define the multiple Transform
+
+syntax:
+matrix(scaleX(),skewX(),scaleY(),translalteX(),translalteY())
+
+#css animation
+
+Q. what is keyframe?
+-animation are designed by using frame 
+usually animation contain 30fps [frame per second]
+-
