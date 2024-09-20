@@ -106,3 +106,36 @@ prompt():-
    prompt return 
        null - on cancel
        ""[empty]
+
+ #every form element have reference id  
+     <input type="text" id="txtName">
+     <select id="lstCities">
+     <input type="checkbox" id="optStock">
+
+you can access elemnet and use its properties:
+
+document.getElementById("txtName").value;
+document.getElementById("lstCities").value;
+document.getElementById("optStock").checked;
+
+Q. what is the strict mode of JavaScript?
+-strict mode for js allow to reduce code in-consistency 
+-so that developer has to follow the coding standard 
+
+<script>
+"use strict"
+x=10; //invalid -x is not define
+document.write("x=" + x);
+</script>
+
+
+Q.how to write the JavaScript for legacy browser?[old version]
+
+- by enclosing the code in html comment
+
+Q. how to js comment 
+// single line comment 
+/* */ multi line comment
+/// xml comment
+
+
