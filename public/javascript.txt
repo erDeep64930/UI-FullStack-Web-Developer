@@ -61,3 +61,34 @@ Q.What is the role of Js?
  }
  </script>
 
+
+ How Js refer HTML elements ?
+-via DOM hierarchy[this is good not not used now-a-days becuase whenever the dom elements position are change then its dom upadte are needed to update .it is fast but not prefer]
+
+you can refer by using "ID"
+  document.getElementById()
+
+id had conflict with css reference
+id is not require if you accessing direct element
+
+-js can refer by using "css selector
+
+syntax:
+       document.querySelector("h2")-->//type selector
+
+       document.querySelector("#pic)-->id selector
+
+       document.querySelector(".pic)-->class selector
+
+
+
+Js Output technique
+
+-alert()
+-confirm()
+-console.log() ,warn(),success() ,error(), debug(),info() etc..
+-innerHTML
+-innerText
+-outerHTML
+-document.write()
+
