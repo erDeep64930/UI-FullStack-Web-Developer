@@ -1,19 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavascriptLearn lec49</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" />
 
     <script>
         function CreateClick() {
-            let folderName = prompt("Enter folder name:");
+            let folderName = prompt("Enter folder name:", "New Folder");
+            if (folderName == null) {
+                document.write("you cancel");
+            } else if (folderName == "") {
+                document.write("please enter a folder name");
+            } else {
+                document.querySelector("p").innerHTML =
+                    "Folder created :" + folderName;
+            }
+        }
     </script>
 </head>
+
 <body>
     <div>
         <button onclick="CreateClick()">Create folder</button>
+        <p></p>
     </div>
-    
+
+    <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>

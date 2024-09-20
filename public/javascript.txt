@@ -100,4 +100,9 @@ Js Output technique
 
 prompt():-
    -it is like alert with input.
-   
+
+   prompt("your message","default value);
+
+   prompt return 
+       null - on cancel
+       ""[empty]
