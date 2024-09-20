@@ -92,3 +92,12 @@ Js Output technique
 -outerHTML
 -document.write()
 
+
+#JavaScript Input techniques:
+
+-prompt()
+-form input elements
+
+prompt():-
+   -it is like alert with input.
+   
