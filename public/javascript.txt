@@ -139,3 +139,86 @@ Q. how to js comment
 /// xml comment
 
 
+--------l-52 start here----------
+
+JavaScript language basic:-
+ 
+Variable:-
+-variable are storage location in memory where you can store a valueand use it as a part of expression
+-
+
+
+
+var x;
+document.write("x=" + x);
+
+Q.can a const change its value ?
+- dynamically yes .
+
+
+Global scope for variable :
+-you can declare a variable in the module scope
+
+
+#variable in javascript can be declare by using :-
+
+a.) var 
+b.) let 
+c.) const
+
+var :-
+-it define a scope variable
+-you can declare in any block of a function and access from any another block in function .
+-var allow declaring, initialization,assigning
+-var allow shadowing 
+-var allow hoisting 
+
+Q. what is shadowing ?
+ - it is the process of re declaring same  name identifier within the scope .
+
+ Q.) what is hoisting
+  - it is a compiling technique ,where compiler can find declarations of variable before using it . hence you can use a variable before declaring .
+eg:-
+
+<script>
+"use strict";
+function f1(){
+  x=10;
+  document.write("x="+x);
+  var x;
+  }
+  f1();
+</script>
+
+
+#let
+
+-it is used to define block scope variable.
+it is accessible only in block where it is declared or to its inner blocks .
+-it allow declaring,assigning,initialize
+-it will not allow shadowing and hoisting in "let"
+
+ 
+const 
+-it is used to define the block scope variable.
+-it will allow only initialization
+-no declaration
+-no assigning
+-no hoisting
+
+Q.why we need a const ?
+-const is require to initialize memory at the time of loading application or component 
+-memory is initialize with some default value .
+-if initialization is missing then by default value will be "undefined"
+
+Q. cam we declare a global variable inside a function ?
+ - yes , by browser window function
+
+ function f1(){
+  window.y = 20;
+ }
+function f2(){
+  document.write("y=20" + y);
+}
+eg:-
+

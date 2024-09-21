@@ -1,6 +1,7 @@
-Style ===cssStyle
--------------
-     Cascade Style Sheets
+              
+                      Cascade Style Sheets
+                      ____________________
+
 
 style can be define in 3 ways :-
  1.Inline 
@@ -48,7 +49,7 @@ Q.what is MIME type for style ?
 <style type="text/css" media="print/screen"></style>
 
 3. External Stylesheet
-   -you can define the separet style sheet with extension".css"
+   -you can define the separate style sheet with extension".css"
    -you can link any page 
    -external stylesheet can increase the number of request 
    that increase the load time .
@@ -60,7 +61,7 @@ Q.what is MIME type for style ?
 Q.what is minification ?
  -it sis the process used to reduce the  file size .
  -it is compressing the files
- -it remove blank spaces ,line break,short hand techniques to reduce the size
+ -it remove blank spaces ,line break, short hand techniques to reduce the size
 
  
 
@@ -69,7 +70,7 @@ Q.what is minification ?
 
 
 Q.can you edit minified files?
-yes ,but not recommended.
+-yes ,but not recommended.
 
 Q.what is cdn ?
 -Content Delivery Network
@@ -224,7 +225,7 @@ div space p {
 p[id]{
     color: black;
 }
-it will aply to all  id it dont care 2/4
+it will apply to all  id it dont care 2/4
 
 p[class]{
     //
@@ -418,6 +419,41 @@ bootstrap.icons.css
 jquery.js
 bootstrap.bundle.js
 
+
+inline vs block 
+-inline :-span ,button,em
+-block :- h1-6,p,br
+
+------Self Introsepection----------
+
+CSS Gradient:-
+-[3 types of gradient]
+
+1. Linear
+2. Radial
+3. Conical
+
+syntax:
+background-image:linear-gradient(direction, Color1,colo2,...)
+direction:- [to right, to bottom etc.]
+
+eg:-
+background-image:linear-gradient(65deg,red,blue)
+
+#CSS Dimension Property:-
+
+1. Width
+2. Height
+3. Max-height
+4. Min-height
+5. Max-Width
+6. Min-Width
+
+~Max-height:-
+ if it reach its max position then it overflow.
+
+
+syntax: overflow:scroll;
 
 
 
