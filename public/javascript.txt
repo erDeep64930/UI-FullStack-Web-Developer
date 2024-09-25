@@ -222,3 +222,92 @@ function f2(){
 }
 eg:-
 
+
+#Variable Naming :-
+
+   - Variable Name must starts with alhpabet or underscore.
+  -variable name cannot exceed more than 255 charecter.
+  -dont use language keyword for variable name 
+  -always variable must speak what it is.
+
+  eg:-
+  var employee = new Employee();
+  var product = new Product();
+  var temporaryEmployee = new TemporaryEmployee();
+
+      Data Types:-
+
+  - it define the data structure .
+  - data type determine the size and type of data.
+  - data type are classified into 2 types:-
+
+    - 1.) Primitive data type
+    - 2.) Non Primitive Data type
+
+Primitive data type:-
+
+ - primitive data type are immutable types .
+ - their structure will not change .
+ - they fixed range for value .
+ - value range can't change .
+ - they use memory stack .
+ - stack use "LIFO" [LAST IN FIRST OUT].
+ -JS is primitive type :-
+
+       a). Number
+       b). String
+       c). Boolean
+       d). Null 
+       e). undefined
+
+  JavaScript is not a strongly typed . it is implicitly typed.
+
+ var x= 10 ; // x is number 
+ x = "john" // x is string.
+
+  js number type refer to -
+   -signed integer  [ -number]
+   -Unsigned integer [+number]
+   -floating point [24.56]
+   -double [334.56 ,567.876]
+   -decimal [29 decimal point]
+   -exponent
+   -binary
+   -octa
+   -hexa
+
+js uses "isNan()" method to verify the number .
+
+js cant identify a numeric value in string format . you have to explicitly convert into number by using following method 
+
+ a).parseInt()
+ b).parseFloat()
+
+
+NOTE:-
+
+# whatever input you get in html via form is string type so you need to convert it into other type .
+
+
+var a ="10ab";
+var b = 20;
+var c = parseInt(a)+b;
+ 
+ a= "ab20 // invalid
+ a = "10ag23" //10 valid 
+
+ 10 +true = 11 //only in js 
+
+ #String type :-
+
+ string is a literal with group of characters enclosed in -
+
+   a).single quote ['']
+   b).double quote [""]
+   c).back tick [``]
+
+-single and double quote are used to configure inner and outer string combination
+
+var link = "<a href='home.html'></a>"
+
+
