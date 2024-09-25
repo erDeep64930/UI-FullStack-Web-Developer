@@ -311,3 +311,57 @@ var c = parseInt(a)+b;
 var link = "<a href='home.html'></a>"
 
 
+#String handling in javascript:-
+
+-js  provide a set of method and property to format and manipulate string .
+
+String formatting method:-
+
+-bold
+-italic
+-sup()
+-sub()
+-fontColor()
+-fontSize()
+-toUpperCase()
+-toLowerCase()
+
+eg:-
+syntax:-
+
+var msg = "welcome to js"
+msg.bold().italics().fontColor('green');
+
+
+#String Property:-
+
+-length : return the total number of characters
+
+-DRY = DO NOT REPEAT YOURSELF 
+
+onkeyup = help for button reusability.
+
+-onkeyup : action to perform when key is release.
+
+-onblur : action to perform wen control is blured.
+
+-onclick : action to performed when clicked 
+
+onload : action to perform on page or image load.
+
+#String manipulation:-
+
+1.) charAt() :-
+    it return the characters at specified index .
+
+2.) CharCodeAt() :-
+    it return the characters at ASCII code at specified index .
+
+3.) slice()
+4.) substr()
+5.) substr()
+6.) substring()
+  
+
+
+
