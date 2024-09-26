@@ -362,6 +362,67 @@ onload : action to perform on page or image load.
 5.) substr()
 6.) substring()
   
+Q.what is difference b/w slice() , substr() and substring() ?
+
+-slice(): it can read the char b/w specified start and end index.
+-if end is not define , then it will read upto end of string .
+-end index must be greater than start index.
+
+string.slice(0,7) // 0to7
+string.slice(7) // 7 to end
+string.slice(7,0) // invalid 
+
+syntax:-
+ slice(startIndex, endIndex);
+
+ -SubStr():-
+
+ it can read specified number of char from given index number .
+
+syntax:-
+
+substr(startIndex, countOfChars);
+
+string.substr(7.3) // from 7 index it will read 
+3 characters
 
 
+substring():-
 
+it can read from specified index to any direction.
+
+syntax:-
+
+substring(startIndex, endIndex);
+
+note:
+
+endIndex can be less than start index.
+
+==================
+
+indexOf() and lastIndexOf():~
+
+-these are the function , which can find any charecter in a string and return its position. 
+- if charecter not found then it return -1 [ie,. charecter is not present]
+
+-lastIndexOf() :~
+ it will return the lasts occurance index .
+
+================
+
+startWith() and endWith():~
+
+-these are function used to verify the starting and ending char in a string .
+
+-these function return the boolean true when string is starting or ending with specific char.
+
+==========
+#match() :~
+it is used to verify and compare given string with any regular expression . it return true if string format is as per regular expression pattern
+
+#trim() and split():-
+
+-trim is used to remove the leading spaces in a string .
+
+-split() 
