@@ -505,11 +505,81 @@ Q. what is purpose of Array ?
   var arrayNAME =[];
   var arrayName = Array();
 
-Q. What is differnce b/w array "[]" meta charecter and "array()" constructor ?
+Q.) What is difference b/w array "[]" meta charcter and "array()" constructor ?
 
 array constructor can define the size of array . however size can be changed dynamically.
 
+
+#Storing value into array :~
+
+-values are stored and accessed from an array by using property.
+-property map to index in memory 
+
+let values = new Array(10, 20, 30, 40);
+
+Reading the value of array :~
+
+1.) Reference of property
+    -value["0"];
+    -values["1"];
+
+2.) Array method 
+
+
+     -toString();  => read and return all array elements  in string format .  [,]
+     
+     -join(); => reads and return all elements with custom delimiter ie., [separater]
+     
+     -slice(); =>read element b/w specified index.
+     
+     -filter(); =>return all elements that match given condition.
+     
+     -find(); => return the first element that match the given condition. 
+     
+     -map(); => it is an iterator for presenting elements. it is software design pattern.
+       -it can read element from a collection in sequential order , it does'nt require any condition , initialization and counter .
+
+#Reding values by using loops and external iterators 
+
+loops:-
+  [they are rarely used].
+
+1.)for() =>
+2.)while()=>
+3.)do while() =>
+
+modern loops:~
+
+1.)for..in // iterator of property 
+2.) for..of // iterator of values.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Dynamically creating and adding DOM elements using array :-
+
+1). you can create HTML elements using javascript by using 
+
+-document.createElement("elementName");
+
+eg:-
+
+document.createElement("h2");
+document.createElement("img");
+
+2). you can add elements dynamically into page by method 
+   -appendChild();
+   -append()
+   -prepend();
+
+  ~~~~~~~~~~~~~L-57 end here~~~~~~~~
   
+
+     
+
+
+
+  
+
 
 
 
