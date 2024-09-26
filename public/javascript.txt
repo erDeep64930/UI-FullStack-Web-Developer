@@ -426,3 +426,93 @@ it is used to verify and compare given string with any regular expression . it r
 -trim is used to remove the leading spaces in a string .
 
 -split() 
+
+
+==========L-56============
+
+# Null type 
+
+-it is an exceptional type.
+-exception occurs at run time.
+-null indicate that value is not supplied during run time.
+-you can verify null type by using"null" 
+
+summary of primitive type:-
+
+-number = numeric value
+-string  = literal
+-boolean = true/false
+-null = no value at run time
+-undefined = no value at compile time
+
+            Non-Primtive types:~
+      __________________________
+
+ -they are mutable types.
+ -they can change the structure according to state and situation .
+ -there is no fixed range for value.
+ -value range varies according to memory  available.
+ -they are stored in heap memory
+ -JavaScript non primitive types are:~
+             1.) Array
+             2.) Object
+             3.) map
+
+ # Array type:~
+
+ Queue : FIFO
+
+ Stack : LIFO eg.[browser history]
+
+  Array :~
+
+ -Array mean organizing in order and accessing in random order
+
+ -Stack mean organizing in order and accessing the last one first.[LIFO]
+
+ -Queue mean organizing in order and accessing the first one first . [FIFO].
+
+Q. what is purpose of Array ?
+    
+    -array is used in computer programming to reduce overhead and complexity.
+    -
+    -array will reduce the complexity by storing multiple value in sequential order.
+    -array will reduce complexity by storing multiple value under one name.
+    -array can handle any type of value.
+    -array size can be changed dynamically.
+
+
+    NOTE:-
+
+    few technology cant allocate various type of memory in sequential order hence they restrict array to same type of value and size cant be changed dynamically .
+
+    eg:~ [C, C++,JAVA,.NET]
+
+    Configure array :~
+
+    1.) Declaring array
+    2.) initialization of memory for array 
+
+  declaring array:-
+
+     var arrayName;
+     var products;
+     var categories;
+
+
+ initialization of memory
+
+  var arrayNAME =[];
+  var arrayName = Array();
+
+Q. What is differnce b/w array "[]" meta charecter and "array()" constructor ?
+
+array constructor can define the size of array . however size can be changed dynamically.
+
+  
+
+
+
+
+
+
