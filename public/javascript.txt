@@ -574,7 +574,44 @@ document.createElement("img");
   ~~~~~~~~~~~~~L-57 end here~~~~~~~~
   
 
-     
+Q. What type of data we can store in array?
+  - can store both primitive + non primitive types data.
+
+ Q. why we need function in array ?
+   - array is defined with function to handle call back mechanism. call back is a technique where function will execute according to situation.
+
+NOTE:~
+
+function in array must be anonymous function. anonymous function will jot have a name .
+    eg:-
+         function(){} //anonymous function
+         function sucess()()  //invalid in array.
+
+Adding value into array:-
+
+1.) push() => Add new value as lats element
+2.) unshift() => add new value as first element
+3.) splice()=> add new value at any specific position
+
+syntax:
+
+arrayName.push("item1","item2")
+
+arrayName.unshift("item1","item2");
+
+arrayName.splice(startIndex,deleteCount,"item1","item2");
+
+
+# Removing values from array :-
+
+1.) pop() => it remove and return the last item.
+
+2.) shift() => it remove and return the first item .
+
+3.) splice() => it remove and return the item at specific index.
+
+arrayName.splice(startIndex,deleteCount);
+
 
 
 
