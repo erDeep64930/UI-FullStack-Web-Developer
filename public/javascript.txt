@@ -613,6 +613,73 @@ arrayName.splice(startIndex,deleteCount,"item1","item2");
 arrayName.splice(startIndex,deleteCount);
 
 
+#Sorting array elements:-
+
+1.) Sort() => it sort the item in ascending order.
+
+2.) Reverse() => it sort the items in reverse order of their occurance.
+
+syntax:
+
+arrayName.sort()
+
+arrayName.reverse()
+
+
+~~~~~~~~~L-58 end here ~~~~~~~~~~~
+
+  Object types:~
+
+  - introduced in 1960 by "alan kay " 
+  - to keep related data logic under one reference .
+  - object store data in property and define logic using function.
+  -object is a key and value collection.
+  - key are string type .
+  - value can be any type .
+
+  syntax : 
+  let object ={
+    "key": value,
+    "key": function(){},
+  }
+
+  eg:-
+
+  let tv ={
+    "name": "sumsung",
+    "price":50000,
+    "stock":true,
+    "qty":2,
+    "total":function(){}
+  }
+
+
+NOTE:~
+
+-The property of an object can be accessed through by using "this" keyword.
+
+-outside object you can access with the reference of object name .
+
+object{
+  this.key
+}
+
+object.key;
+
+-object acts as a reusable template, with sample data and logic which you can implement and customize according to requirement .
+
+-hence object is called "pseudo class".
+
+-if object is representing a format of data then it is known as json [javascript object notation]
+
+array of objects:-collection of objects.
+
+syntax:
+
+[
+  {},
+  {},
+]
 
 
   
