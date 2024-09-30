@@ -681,8 +681,45 @@ syntax:
   {},
 ]
 
+-----------L-59 end here-----------
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+AJAX calls in javascript with fetch method:-
+
+-Ajax is a asynchronous javascript function and XML.
+-it allow partial post back. it can post only a specific portion of page.
+-it uses "XmlHttpRequest" object.
+-JavaScript provide the "fetch" method which uses a synchronous request for fetching data from api.
+
+
+syntax:
+
+fetch("url").then(function(){get data}).then(function(){convert to json})
+
+distributed computing :-
+
+- two applications running on different machine can share information b/w them.
+
+eg:-
+COBRA
+DCOM 
+RMI
+EJB
+REMOTING
+WEB SERVICES [API]
+
+There are three specification :-
+
+1.) SOAP:
   
+  consumer => XML request <=>XML response <= provider
+
+ 2.) REST:
+     consumer =>Query request <=> XML response <= provider
+
+ 3.) JSON:
+         consumer => JSON request <=> json response <= provider
 
 
 
