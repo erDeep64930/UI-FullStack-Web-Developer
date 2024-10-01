@@ -724,8 +724,59 @@ There are three specification :-
 
 ~~~~~~~~~L-60 end here~~~~~~~~~~
 
+Non Primitive types:~
+
+1.array
+2.object
+3.map
+
+Q.) What is Map type?
+    - map is similar to object with key and value collection.
+
+Q.) What is difference between map and object ?
+
+1.)
+ -[Object]=>key and value collection
+
+ -[map]=>key and value collection.
+
+2.) 
+-[Object]=>key is only string type.
+-[map]=>key can be any type 
+
+3.) 
+ -[Object]=>you need explicit iterator   to read keys and values.
+ eg:~ {for..in loop}
+ -[map]=>provide implicit iterator to read keys and values.
+eg:~ {keys(),values(),entries()}
+
+4.)
+-[Object]=>slow in accessing.
+-[map]=>faster than object.
+
+5.)
+-[Object]=>size of keys is unknown .
+-[map]=>allow to access size of keys.
+
+Map Method:~
+--------------
+
+1.) set()
+   -add a new value 
+2.) get()
+   -fetch the value by using key reference
+3.)keys()
+   -return all the keys.
+4.)values()
+   -return all values.
+5.)entries()
+   -return both the keys and values.
+6.)delete()
+   -delete specific key
+7.)clear()
+   -delete all entries.
 
 
-
-
+#Date type:~
+--------------
 
