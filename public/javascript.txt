@@ -780,3 +780,53 @@ Map Method:~
 #Date type:~
 --------------
 
+-JavaScript date values are defined by using "Date()" constructor.
+
+-it will loads the current date and time into memory.
+
+var now = new Date();
+
+- you can configure date and time by using
+date value constructor.
+
+var now = new Date("2022-06-19");
+
+-you can access the date and time by using:-
+
+1).getHours()~return hour number in 24 hr format.
+
+2.)getMinutes()~return minute number 0-59
+
+3.)getSeconds()~return second number 0-59
+
+4.)getMilliseconds()~return milliseconds number 0-99
+
+5.)getDate()~return date number.
+
+6.)getDay()~return weekday number[0=sunday]
+
+7.)getMonth()~return month number [0=january]
+
+8.)getFullYear()~return full year number[2022]
+
+9.)toLocaleDateString()~return complete date .
+
+10.)toLocaleTimeString()~return complete time.
+
+
+#JavaScript timer events :~
+
+-setInterval();
+-setTimeout();
+-clearTimeout();
+-clearInterval();
+
+
+-setInterval();
+  => it is used to perform specific task repeatedly at given time interval.
+
+syntax:
+setInterval(functionName,timeInterval);
+
+
+ 
