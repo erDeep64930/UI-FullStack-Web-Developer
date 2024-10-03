@@ -828,5 +828,113 @@ var now = new Date("2022-06-19");
 syntax:
 setInterval(functionName,timeInterval);
 
+Math object:-
+eg:-
+
+Math.PI , Math.round() etc..
+
+
+-----------L-62 end here-----------
+
+JavaScript Operator :-
+
+-Operator is an object that evaluates a value.
+-Operator comprises of operands that store data .
+
+x+y => x and y are operands + is operator.
+
+a.) Unary operator
+
+x++,--y
+
+b.) Binary operator
+
+x+y 
+x*y 
+
+c.) Ternary operator
+
+?:
+(condition)?if_true:if_false?
+
+-Operator are again classified into various groups based on the types of values they return .
+
+a.) Arithmetic operator : number 
+b.) Conditional operator : boolean
+c.) Logical operator : boolean
+d.) Bitwise operator : binary
+e.) Special operator : vary in functionality .
+
+Additional operators : it return the sum of given number.
+
+number + number = number;
+number + string = string;
+number + boolean = number;
+string + string = string;
+string + number = string;
+string + boolean = string;
+boolean + number = number;
+boolean + boolean = number;
+
+note:-
+
+-any operation with undefined will be NaN [not a number].
+
+-any operation with null will return number except string .
+
+#Subtraction Operator : it return the difference value.
+
+string - number = NaN;
+string[number]-number = number;
+number-boolean = number;
+boolean-boolean = number;
+
+All other operator = NaN;
+
+Note:~ 
+
+-operator uses implicit parsing , but only for numeric representing in string format.
+
+#Multiplication operator:-
+
+number*number=number;
+number*boolean= number;
+
+all other operation = NaN;
+
+#Division operator:-
+
+number/number=number;
+number/boolean = number [true]
+
+Modulus:
+
+it return the remainder value.
+
+number%number=number;
+number%boolean= number [true];
+
+#Exponent Operator :[ES5]
+ -It return the value of base raised to power.
+
+ 2**3=8;
+Math.pow(2,3);
+
+--------------------------
+
+Increment and decrement operator :-
+
+x++ => x=x+1; 
+x-- => x=x-1;
+
+----------------Lec-63 end here----------
+
+ 
+
+
+
+
+
+
 
  
