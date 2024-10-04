@@ -929,7 +929,166 @@ x-- => x=x-1;
 
 ----------------Lec-63 end here----------
 
+ #Conditional operator :-
+
+ == equal;
+
+ === identical equal;
+
+ !== not identical;
+
+ != not equal;
+
+> greater than;
+
+>= greater than or equal;
+
+< less than
+
+<= less than or equal;
+
+Q. what is diffrence b/w =,==,===?
+
+= it is used to assign a value;
+
+== it is used to compare 2 values of different types
+
+=== it is used to compare two values of same type.
+
+Note :
+
+all comparison operator return boolean values.
+
+
+#Logical operator :-
+
+&& logical AND
+
+|| logical OR
+
+! logical NOT 
+
+
+syntax:-
+
+=>condition 1 && condition 2 : expression will be true only when both condition are true
+
+=>condition 1 || condition 2 : expression will be true if any one condition is true.
+
+!true : negative of true is false.
+
+Q. difference b/w break and return ?
+
+
+break : break will terminate the execution within block ie., terminate in if block but stay in for loop.
+
+
+
+return : return will terminate the execution within block and stay ot of script/ loop.
+
+--both are jump statements . 
+--break: will terminate the block but will stay in script/ loop.
+--return :will terminate the script.
+
+
+
+----------L-64 end here---------
+
+
+Assignment Operator :
+
++=
+
+-= 
+
+*=
+
+/=
+
+%=
+
+#Special Operator :
+
+1.) typeof()
+   
+    
+var product = {
+  name: "tv",
+  price: 45000,
+  stock: true
+}
+
+-to read the property of products
+
+for(var property in product) {
+  document.write(`${property}:${typeof product[property]}`);
+}
+
+2.) instenceof 
+ it is used to check the classname , from where the given instance is derived.
+
+-t return the boolean operator that return true or false.
+
+3.) in operator 
+-it is used to verify the existence of any property in object.
+
+  
+-------L-65 end here-----
+
+4.of 
+5.void():
+
+6.) ternary operator :-
+
+syntax:
+
+(condition)?
+statement_if_true:statement_if_false
+
+
+#JavaScript statements:-
+
+-a statement is used to control the execution flow.
+-javascript statements are classified into following types:-
+
+1.) selection statement [if,else,switch,case,default]
+
+2.) iteration and looping control statement [ ]
+
+3.) Jump statement
+
+4.) Exception handling statement
+
+~~~~~~~~~ L-66 end here ~~~~~~~~
+
+Q. can we define switch inside case ?
+-no . not recommended . always defined a function and call using  function.
+
+~~~~~~~~~ L-67 end here ~~~~~~~~
+
+Loping control and iteration statement:
+
+-looping is the process of executing a set of statements repeatedly until given conditions are satisfied.
+
+-looping require :
+  a. initialization 
+  b.condition
+  c.counter
+
+-loop are created by using for , while, do while
+
+Q.) What is difference b/w loop and recursion ?
+
+
+
+~~~~~~~~~ L-68 end here ~~~~~~~~
  
+ 
+ 
+
+
+
+
 
 
 
