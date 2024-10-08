@@ -1084,7 +1084,123 @@ Q.) What is difference b/w loop and recursion ?
 ~~~~~~~~~ L-68 end here ~~~~~~~~
  
  
- 
+ for loop:-
+
+ -it is used when the exact iteration are known to the developer and iteration count will not change dynamically.
+
+-it require initialization , condition , counter
+
+syntax:
+
+for(initialization;condition;counter);{
+  //
+}
+
+ NOTE:-
+
+ don't use loop for reading data from collection . always use them for a counter to execute.
+
+ # Iterator 
+
+ -iterator is a software design pattern used to read elements from a collection in sequential order.
+
+ -it does'nt require initialization , condition an counter.
+
+ -iterator can be defined with :-
+
+
+*********
+ for..in  => [to read all property from collection]
+
+ for..of => [to read all values from collection]
+
+********
+
+syntax:-
+
+-for(var property in collection/object){
+  //
+}
+
+-for(var value of collection){
+  //
+}
+
+ #Jump statement:-
+
+ -continue
+ -break
+ -return
+
+ #continue :-
+
+ -it skip the current counter and continue to next counter.
+
+~~~~~~~~~L-69 end here~~~~~~~~~~
+
+Advance concept in JavaScript:~
+
+
+
+ #exceptional handling statement in JavaScript-
+
+ -in computer programming we have to handle 2 types of error 
+
+   a.) Compile time error 
+   b.) Run time error
+
+  Compile time error 
+
+  -these are the error related to syntax declaration in JavaScript.
+
+  - applications fail to compile.
+
+  -you can't view the Output.
+
+#Run time error:-
+
+-this are the error identified during runtime of application.
+
+-application successfully compile.
+
+-application start working .
+
+-application faces catastrophic failure.
+
+-this lead to abnormal termination of application.
+
+Q. What is the purpose of exceptional handling?
+
+-it is used to avoid abnormal termination.
+
+- JavaScript exceptional handling statements are 
+
+  a.) try 
+  b.) catch
+  c.) throw
+  d.) finally
+
+TRY:
+-it is monitoring block. it contain  the statement to execute.
+
+CATCH:
+-it is handler block. it will catch the exception thrown by application.
+
+THROW:
+-it explicitly throw exception when & message.
+
+FINALlY:
+- it comprises of statements to execute in all situations.
+
+******************
+
+# JavaScript Function-
+
+- a function is used for refactor.
+
+-refactor is a technique used to extract set of statement into a function.
+
+
 
 
 
