@@ -1200,13 +1200,62 @@ FINALlY:
 
 -refactor is a technique used to extract set of statement into a function.
 
+-it allow encapsulation and reusability
+
+Q. what is formal parameter ?
+- it is parameter defined in function declaration.
+
+Q. what is Actual parameter ?
+=it is parameter defined into a function while calling the function.
+
+Q. what is argument ?
+-argument define how many parameter are configure in function.
+
+Q.how are function are called?
+-by using the signature of the function
+
+Q. what a function can do , is defined in definition?
+-
+
+syntax:-
+
+function functionName(){
+  for (var i=1;i<=1;i++){
+    document.write(i "<br>")
+  }
+}
+
+function parameter 
+__________________________
+
+- function can be parameter less or parameterized.
+
+-function require parameter in order to modify the functionality
+
+- function can have multiple parameters.
+
+-function parameter are order dependency.
+
+-function can have any type of parameter. both primitive and non primitive.
 
 
+------------L-70 end here------------
+
+rest parameter  
+-----
+-javascript ES5 and higher versions support "Rest"parameter.
+
+-Asingle rest parameter can allow multiple arguments.
+-ARest parameter is defined by using"...paramName".
+
+Syntax:
+          function Name(...restParam){
+            //
+          }
+          Name(arg1,arg2,arg3,arg4..);
 
 
-
-
-
+l-71 [12]
 
 
 
