@@ -1245,8 +1245,9 @@ rest parameter
 -----
 -javascript ES5 and higher versions support "Rest"parameter.
 
--Asingle rest parameter can allow multiple arguments.
--ARest parameter is defined by using"...paramName".
+-A single rest parameter can allow multiple arguments.
+
+-A Rest parameter is defined by using"...paramName".
 
 Syntax:
           function Name(...restParam){
@@ -1255,7 +1256,50 @@ Syntax:
           Name(arg1,arg2,arg3,arg4..);
 
 
-l-71 [12]
+-every function can have only one rest parameter.
+
+-rest parameter must be the last parameter in formal list.
+
+syntax:-
+
+-function Name(...rest1,...rest2)    // invalid
+
+function name(...rest1,id);  // invalid
+
+function name(id,...rest1)  //valid
+
+Q. why rest parameter must be last parameter ?
+
+-as it read values upto end.
+
+Q. why function cant have multiple rest parameters ?
+
+-as one rest parameter will read up to end , you don't need multiple rest parameters and function will not allow multiple.
+
+____________________
+
+Function with Return type defined 
+___________
+
+ - if return is not using any operation then it is used to terminate the execution.
+
+- any statements define after return statement , is not reachable to compiler.
+
+Q. can we define return keyword in aa function that doesn't return value?
+
+-yes, it is used as jump statement.
+
+Function recursion
+---------------------
+
+-it is the technique of calling a function with in the context of current function.
+
+-it is used for batch operation.
+
+---------L-71 end here--------
+
+
+
 
 
 
