@@ -1298,9 +1298,176 @@ Function recursion
 
 ---------L-71 end here--------
 
+# Function closure:-
+
+- it is a technique of configuring a function inside another function.
+
+-the member of outer function are accessible to inner functions.
+
+- the member of inner function are not directly accessible to outer functions.
+
+-closure technique is allows the outer function to access the member of inner function.
+
+
+# Anonymous function :-
+
+-it is a function without name.
+
+-they are used in callbacks.
+
+-callback is a technique of accessing function and loading into memory according to state and situation.
+
+# Arrow functions :-
+
+- it is a function used to define a function i short hand technique.
+
+-you can minify the function declaration and defination.
+
+() : configure function with parameter.
+
+=>  : configure return value
+
+{}  :- configure set of statements.
+
+eg:-
+
+var print =()=>{
+  alert("statement1");
+}
+
+this is called LAMBDA syntax.
+
+
+# JavaScript OOP:~
+******************
+
+-in real-time development various programming systems are used like :-
+ a.) POPS 
+ b.) OBPS 
+ c.) OOPS
+
+  a.) POPS :- PROCESS ORIENTED PROGRAMMINNG SYSTEM
+
+-it support low level features.
+
+-it can directly interact with hardware services.
+
+-it uses less memory.
+
+-it is faster in communication.
+
+eg:-
+
+C, PASCAL,COBOL, etc..
+
+disadvantages of POPS:-
+
+-code reusability issue.
+
+-code separation issue.
+
+-no dynamic memory allocation.
+
+-code security issues.
+
+-update issues.
+
+[1 sols = 48 hrs]
+
+eg:- rover is made on this concept.
+
+eg:-remote control a/c,fridge
+
+
+ b.) OBPS : OBJECT BASED PROGRAMMING SYSTEM.
+
+ -it support code separation.
+
+ -it support code reusability .
+
+ -dynamic memory allocation.
+
+ -support extension.
+
+ eg:-
+  JavaScript, visual basic etc.,
+
+  Demerit:-
+
+  -code level security issues.
+
+  -no contracts
+
+  -no templates.
+
+  -no dynamic polymorphisms.
+
+
+c.) OOPS:OBJECT ORIENTED PROGRAMMING SYSTEM.
+
+ -supports contracts, template, dynamic polymorphisms .
+
+ -support code security.
+
+ eg:-
+ typescript , c++, .net , etc
+
+ Demerit:-
+
+ - they are tidious [ie., uses more memory].
+
+ - they are complex in configuration.
+
+ - they are slow.
+
+ [mobile = 1200 rs phone = symbion is operating system for mobile ]
+
+ Q. is JavaScript is OOPS language?
+  - no, it support some features of oops.
+
+ [typescript is OOPS language] 
+
+[typescript => javascript=>browser.]
+
+MVC -Code separation framework:-
+
+Java - spring.
+
+PHP - cake php , code igniter.
+
+python - django , flask.
+
+ruby - ruby on rail.
+
+.net - asp.net
+
+javascript - spine,angular,react,vue,
+
+
+features of oops:-
+
+-code reusability,separation, extensibility, security.
+
+Charecterstics of oops:-
+
+-inheritance,
+-encapsulation
+-polymorphisms
+-abstraction
+
+
+---------l-72 end here---------
+
+JavaScript OOPS features:-
+
+-
 
 
 
+
+
+
+  
 
 
 
