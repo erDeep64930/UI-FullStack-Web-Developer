@@ -8,14 +8,37 @@
 </head>
 <body>
     <script>
-        class Product {
-Name:"sumsung tv";
-Price:56000;
-ShippedTo=["delhi","hydrabad","mumbai"];
-Rating={Rate:3.9,Count:500}
+ var username =prompt("enter the username");
+
+ var password = prompt("enter password");
+
+ var productname = prompt("enter product name");
+
+ class Product
+ {
+    _productName;
+    get ProductName(){
+        return this._productName;
+    }
+    set ProductName(newName){
+        if(username=="john" && password=="john@123"){
+            this._productName = newName;
+        }else {
+           document.write("you are not authorized to set product name") ;
+
         }
-    let tv =  new Product;
-    document.write(`Name=${tv.Name} <br> Price=${tv.Price}`)
+      
+    }
+ }
+
+ let obj = new Product;
+
+ obj.ProductName = productname;
+
+ if(obj.ProductName){
+    document.write(`productName: ${obj.ProductName}`)
+ }
+ 
     </script>
 </body>
 </html>
