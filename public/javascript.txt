@@ -1458,9 +1458,201 @@ Charecterstics of oops:-
 
 ---------l-72 end here---------
 
-JavaScript OOPS features:-
+Modulus in JavaScript:-
 
--
+-Module is a set function, values and classes.
+
+-Module are used to build library for applications.
+
+-you can import and implement the library in your  project.
+
+-module provide reusability, maintability,testability,extensibility,separtion.
+
+-to use module in a project you need a module system working in pc.
+
+-there are various module system like :-
+
+-common js.
+
+-amd[asynchronous module distribution].
+
+-UMD[universal module distribution
+
+[node js provide us umd].
+
+--------------------
+
+[IEEE -international website for project standard for student ]
+
+[MCA,B.TECH,MSC]
+
+-do research on existing system.
+
+-he must identify the gap or suggest new features to existing app.
+
+-now they have to build a new application with given suggestions. [Academic project].
+
+[IEEE -scholar based paper]
+
+---------------------
+
+steps:
+
+1.you can create a module , which is javascript file with set of function.
+
+2.you have to mark the member with "export" , only exported member can be imported.
+
+syntax:
+
+ export function name(){
+  //
+ }
+3. you have to import the module and member of module in any page.
+
+import {member} from "module_file_path";
+
+NOTE:
+
+THE SCRIPT TYPE FOR MODULE SYSTEM MUST BE 
+
+<script type="module"></script>
+
+=======================
+
+class in OOP
+
+-In computer programming class is a "program template"
+
+Q. why we not have variable , function in class ?
+
+-because it is template.
+
+-class contain method and  property.
+
+-a class comprises of sample data and logic which you can implement and customize according to the requirement.
+
+-----L-73 end here----------
+class in oops-
+-class is a program template.
+it comprises of sample logic and data , which you can customize and implement.
+-class have various behaviour:-
+ a.)model 
+ b.)entity 
+ c.)blue print 
+
+
+ -class is reffered as model when it is representing data.
+
+-class is reffered as entity when it is representing business requirement.
+
+-class is always a blue print as it contain set of data and logic , which you can implement at any location.
+
+
+=======================
+
+class configuring :-
+
+1. class declaration
+2. class expression
+
+
+1. class declaration
+- it is used for classes that are requested according to requirement.
+
+class className {
+
+}
+
+class expression is used for classes that are loaded according state and situation.
+
+var refName = class{};
+
+class members:-
+
+-a class comprises of follwing members:-
+
+a.)property
+b.)method
+c.)accessors
+d.)constructor
+
+Q.can we define variablle in class ?
+-no.
+
+Q.can we define a function in class ?
+-no.
+
+Q.why we cannot define variable and function in class?
+-they are immutable. class can contain only mutable member.
+
+
+Q.what is difference b/w variable and property?
+
+or
+
+Q.what is difference b/w property and variable ?
+
+--they are immutable. class can contain only mutable member.
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+properties :-
+
+-properties are references in class memory where you can store data.
+
+-data are stored in properties.
+
+-you can store any type of data in property [primitive or non-primitive]
+
+-syntax:
+
+class className
+{
+  property=value;
+}
+
+in order to access member of a class , you have to create an instance for class.
+
+let instance = new className;
+
+- "new" is dynamic allocating operator.
+
+-"constructor" is responsible for creating an object for class.
+
+-property are mutable , you can control the behavior of property using "accessor".
+
+----------------------
+         Accessors:-
+
+-  accessor will provide a fine grained control over properties.
+
+-accessor define the restriction for reading and writing data into property.
+
+-at the same time they can define the restriction .
+
+-the accesor used in class are:-
+
+a.)get()  =>[getter]
+b.)set()  =>[setter]
+
+a.)get():-
+-it is used for reading value from a property.
+
+b.)set():-
+-it is used for writing data into a property.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
