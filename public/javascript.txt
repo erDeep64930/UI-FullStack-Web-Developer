@@ -1801,9 +1801,55 @@ according to rule of the OOP language , if classes are configure with relationsh
 
  }
 
- Q. why multiple inheriteance is not supported classes ?
+ Q. why multiple inheritance is not supported classes ?
 
  -because of constructor deadlock.
+
+-deadlock is a situation where every constructor wait for each other.
+
+-interface in OOP support multiple inheritance as it does not have constructor.
+
+---------------------------
+
+Polymorphism :-
+
+
+poly = many
+morphos = forms
+
+ - it is the ability of component to change its behaviour according to state an d situation.
+
+ -it is single base class object using the memory of multiple derived classes.
+
+ - in javascript a single object can work for various classes.
+
+ **********************
+
+ JavaScript browser events
+
+ -events is a message sent by sender to its subscriber in order to notify the change.
+
+ -events follow software design pattern  called "observer"
+
+ -Sender - sends notification
+
+ -Subscriber  contain action to perform.
+
+ - events uses a delegate mechanism [function pointer]
+
+ onclick => events
+
+ onclick ="insertClick()" =>event handler.
+
+ every event handler contain default arguments.
+
+ a.) this : contain information about object.[button]
+
+ b.)event : contain information about event [onclick]
+
+ -object informaion contain  [name,id,value];
+
+ -event information contain [clientX,clientY,keyCode,charCode] 
 
 
 
