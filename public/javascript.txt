@@ -1641,6 +1641,350 @@ a.)get():-
 b.)set():-
 -it is used for writing data into a property.
 
+syntax:-
+
+_propertyName;
+
+get Property()
+{
+  return this._propertName;
+}
+
+set Property(newName)
+{
+  this._propertyName = newName;
+}
+
+---------------------
+
+     methods
+
+-method define the action to perform.
+
+-all method specification are similar to function.
+
+Q.what is diffrence b/w function, method and procedure?
+
+-all are used to define function.
+
+-function : always intended to return value.
+
+-methods: always intended to discard the return value.
+
+-procedure: changes according to situation . it can discard memory or allocate memory according to return value.
+
+----------l-74 end here----------
+
+      constructor
+      ---------------
+
+ -it is pecial type of method in class ,which is used for instantiation .
+
+ -  instantiation [mean creating object]
+
+ - constructor is sub routine that execute automatically for every object.
+
+ - it initializes memory to store value at the time of allocating memory for class.
+
+ - In javascript constructor is anonymous[without name]
+
+ -class name is used for constructor implicitly.
+
+ -it is define by words "constructor" keyword
+
+ -every class have a default constructor.
+
+ - you can configure explicitly constructor to defie explicit actions.
+
+ -syntax:-
+
+ class className
+ {
+  constructor()
+  {
+
+  }
+ }
+
+
+let obj = new className; constructor reffered implicitly [internally].
+
+let obj = new className(); =>  ()=> refering to constructor.
+
+
+Q.is "()" is mandatory beside class name?
+-no. it is required only when constructor is parameterized.
+
+-javascript class cannot overload constructor.
+
+-javascript class cannot have private constructor.
+
+-javascript class cannot have static constructor.
+
+Hence JavaScript is not a complete OOP language.
+
+- a derived class constructor must have super call.
+
+note:-
+
+according to rule of the OOP language , if classes are configure with relationships then a derived class constructor ,ust call base class constructor.
+
+  in other OOP language, it is done implicitly but in javascript you need a explicit calling.
+
+  --------------------
+
+  code reusabilty:-
+
+ - it one of the key feature of OOP.
+
+ - you can configure code reusability by usinng 2 techniques.
+
+  a.) aggregation
+  b.)inheritance
+
+  **************************
+
+  a.) aggregation
+
+  -it is technique used to access the code of one class in another by using an instance of class.
+
+  - it is reffered as "has-a-relation".
+
+  - it is "object-to-object" communication.
+
+
+ b.)inheritance
+
+ - in this technique a  class can extend another class.
+
+ - you can configure relation b/w classes
+
+ -member of base class are accessible in derived class by using "super" keyword.
+
+ -without creating instance of base class you can access it s member by using "super" keyword.
+
+  - inheritance is code extensibility.
+
+  - this is reffered as "is-a-relation".
+
+  #single inheritance
+
+  #multi level inheritance.
+
+  -----------L-75 end here-----
+
+  Types of inheritance:-
+
+  1.)single inheritance:-
+
+ - a base class is extended by using derived class.
+
+  2.
+  )multi level inheritance.
+ 
+ - a derived class is extended by another derived class.
+
+ #Mutiple Inheritence:
+ 
+ -a single derived class implements multiple super classes.
+ 
+ -it is not supported for classes in OOP 
+
+ -it is supported for interface in OOP.
+
+ -javascript don't have interface.
+
+ syntax:-
+
+ class Derived extends super1, super2 //invalid
+ {
+
+ }
+
+ Q. why multiple inheriteance is not supported classes ?
+
+ -because of constructor deadlock.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------L-94 started---------
+
+React js:-
+
+-js library [spa]
+
+-javascript and jquery can also build SPA [ issue is]:-
+
+ -lots of dom manipulation
+ -lots of references
+ -lots of coding
+ -heavy application
+ -compactibility issue.
+
+therefore React.
+
+
+
 
 
 
