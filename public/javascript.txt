@@ -1851,6 +1851,7 @@ morphos = forms
 
  -event information contain [clientX,clientY,keyCode,charCode] 
 
+------L-76 end--------
 
 
 
