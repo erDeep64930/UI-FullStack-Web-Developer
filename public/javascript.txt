@@ -1854,6 +1854,78 @@ morphos = forms
 ------L-76 end--------
 
 
+various category of browser events:-
+
+1.keyboard events 
+
+2.mouse events
+
+3.Clipboard events
+
+4.button events
+
+5.Timer events
+
+6.Touch events
+
+
+------------------------------
+
+1.keyboard events :-
+
+-handle interaction with regard to keys
+
+-they specify action to perform while user is pressing the key.
+
+-onkeyup: when key is release.
+
+-onkeydown:when user hold down a key and
+
+-onkeypress: when user keys-in another key.
+
+ -----------L-78 end here-----------
+
+ # Timer events
+
+ -> setInterval()
+
+ -> clearInterval()
+
+ -> setTimeout()
+
+ -> clearTimeout()
+
+
+----------------------------------------------------------------
+
+
+ -> setInterval()
+
+ it makes any task inactive for specific duration of time and invokes after the time interval.
+
+ - it can execute the given task once for every object .
+
+ syntax:
+
+ setTimeout(functionName(){
+//
+ })
+
+
+
+# Browser object with
+
+
+a.) window
+b.) location
+c.) history
+d.) document
+
+
+
+
+
+ ---------79 end here---------
 
 
 
