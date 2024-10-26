@@ -1998,7 +1998,42 @@ history object:-
  history.forward()
  history.go()
 
- 
+-------L-80 END HERE---------
+
+ --------------------------------
+
+         jQuery
+
+-it is a javascript library.
+
+- library is a set of values and function.
+
+- you can import and implement in any application.
+
+-write less and do more.
+
+-light weight and faster,
+
+- it reduces the browser compatibility issues.
+
+-like jQuery there are several different library :-
+  React ,Angular,Vue
+  Ember.js ,Redux.js 
+
+  -Jquery is used for :-
+
+  -client side interaction 
+  -dom manipulation 
+  -interaction with api
+
+Set up jQuery for project :-
+
+npm i jquery
+
+
+
+
+
 
 
 

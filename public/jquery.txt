@@ -1,0 +1,99 @@
+           jQuery
+
+
+(function(){}) = anonymous function
+
+factory = it is a collection of values and functions.
+
+factory uses single call function.
+
+---------------
+
+-to access the jquery object= use "$"
+
+<script>
+$(function(){
+
+})
+</script>
+
+this is for before the jquery loading the page
+
+or
+
+<script>
+
+$(document).ready(function(){
+
+})
+</script>
+
+this is for after the jquery loading the page
+
+
+-----------
+
+jquery reference technique 
+
+-jqueryy can refer html elements by using all css selectors.
+
+eg:-
+
+$("p") = type selector 
+
+$("#para") = id selector 
+
+$(".para2") = class selector
+
+
+
+query dom method :-
+
+html() -innerHTML
+text() -innerText
+val()
+attr()
+prop()
+append()
+appendTo()
+prepend()
+before()
+after()
+
+
+----------------------------------------------------------------
+
+all javascript events are same in jquery.js
+
+onclick = click 
+
+onchange = change
+
+onblur = blur
+
+no event handler 
+
+eg:-
+
+<button onclick="insertClick()"></button>
+
+
+now 
+
+$("button").click(function(){})
+
+
+only "event" is allowed as event argument - yhere is no "this" keyword.
+
+jQuery iteration :-)
+
+
+$.each()
+
+syntax:
+
+$.each(data,function(key,value){
+    //
+})
+
+------------Lec-81 end here --------------------
