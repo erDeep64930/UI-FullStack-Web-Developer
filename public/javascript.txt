@@ -1927,7 +1927,78 @@ d.) document
 
  ---------79 end here---------
 
+Q. how to access the current location details ?
 
+-href =>complete URL to
+-path =>current file path
+-hash => current refrence ID
+-search =>query string to
+
+
+location.hash : it is used to access the current loaction by using "id" , it can access a named location within the page.
+
+----------------------------------------------------------------
+
+Navigator Object:
+
+
+-it is used to access the current browser details,
+
+-it include 
+  browser family
+  version
+  plugin
+  mime Types
+  geo location
+
+-it uses the property 
+  -appName
+  -language
+  -platform
+  -plugin[]
+  -mime Types[]
+  -userAgent.
+
+-navigator send cookies to the browser.
+
+
+#general browser details:
+
+# To get all plugin:-
+
+# to check any specific plugin ?
+
+Q.how to get the status of javascript in browser?
+
+= by using html element 
+
+<noscript>please enable javascript on browser</noscript>
+
+Q. how to get MIME types ?
+ <script>
+ function f2(){
+  for(var item of navigator.mimeTypes){
+    document.write(item.type + "<br>")
+  }
+ }
+ </script>
+
+
+Q.how to access the geoLocation ?
+
+----------------------------------------------------------------
+
+history object:-
+
+-it is used to access browser history details .
+
+-it allows to access
+ history.length
+ history.back()
+ history.forward()
+ history.go()
+
+ 
 
 
 
